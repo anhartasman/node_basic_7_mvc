@@ -7,3 +7,9 @@ mempelajari Model View Controller(MVC) di node js
 ### Intro
 
 Menambahkan controller
+
+## 99. Finishing the Controllers
+
+### Intro
+
+Menyelesaikan controller
