@@ -25,3 +25,9 @@ Menambahkan model produk
 ### Intro
 
 Menyimpan data di file via model
+
+## 102. Fetching Data from Files Via the Model
+
+### Intro
+
+Mengambil data dari file via model

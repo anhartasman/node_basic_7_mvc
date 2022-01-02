@@ -17,10 +17,11 @@ module.exports = class Product {
         products = JSON.parse(fileContent);
       }
       products.push(this);
-      fs.writeFile(p, JSON.stringify(products));
+      console.log(p);
+      fs.writeFile(p, JSON.stringify(products), (err) => {});
     });
   }
-  static fetchAll() {
+  static fetchAll(cb) {
     const p = path.join(
       path.dirname(require.main.filename),
       "data",
@@ -28,9 +29,11 @@ module.exports = class Product {
     );
     fs.readFile(p, (err, fileContent) => {
       if (err) {
-        return [];
+        cb([]);
+      } else {
+        // cb([]);
+        cb(JSON.parse(fileContent)); //<--terdapat error, akan dilanjutkan di tahap berikutnya
       }
-      return JSON.parse(fileContent); //<--terdapat error, akan dilanjutkan di tahap berikutnya
     });
   }
 };
