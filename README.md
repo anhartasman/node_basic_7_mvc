@@ -13,3 +13,9 @@ Menambahkan controller
 ### Intro
 
 Menyelesaikan controller
+
+## 100. Adding a Product Model
+
+### Intro
+
+Menambahkan model produk
