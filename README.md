@@ -19,3 +19,9 @@ Menyelesaikan controller
 ### Intro
 
 Menambahkan model produk
+
+## 101. Storing Data in Files Via the Model
+
+### Intro
+
+Menyimpan data di file via model
