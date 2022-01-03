@@ -31,3 +31,9 @@ Menyimpan data di file via model
 ### Intro
 
 Mengambil data dari file via model
+
+## 103. Refactoring the File Storage Code
+
+### Intro
+
+Skrip penyimpanan file
